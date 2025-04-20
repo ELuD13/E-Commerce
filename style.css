@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#top{
+    background-color: black;
+    color:  rgb(225, 225, 225);
+    width: 100%;
+    height: 1em;
+}
+#top > p{
+    margin-inline-start: 7em;
+    margin-inline-end: 7em;
+}
+header{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+header > span{
+    float: left;
+    color: red;
+    font-weight: bold;
+    margin: 1% 0 0 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+header > nav > ul{
+    float: right;
+    list-style-type: none;
+    margin: 2em 3em 0 0;
+}
+header > nav > ul > li{
+    display: inline;
+
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em;
+    transition-duration: 2s;
+    
+}
+header > nav > ul > li > a:hover{
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+#sec1, #sec4{
+    background-color: lightgrey;
+    height: 15em;
+    position: relative;
+}
+#sec1 > img{
+    position: absolute;
+    top: 5%;
+    right: 9%;
+    height: 14em;
+    width: 29em;
+}
+#sec1 > p{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    line-height: 1.25em;
+    word-spacing: 0.25em;
+}
+#sec1 > button{
+    position: absolute;
+    left: 12%;
+    top: 60%;
+}
+.btn{
+    color: white;
+    background-color: red;
+    padding: 0.5em;
+    border-radius: 0.75em;
+}
+#sec2, #sec3, #sec5{
+    margin: 1% 2% 0 2%;
+    background-color: #fff;
+    padding: 10px;
+}
+#sec2 > div > img, #sec5 > div > img{
+
+    width: 300px;
+    height: 250px;
+    margin: 7px;
+    box-shadow: 5px 3px 5px black;
+}
+#sec2 > div > a, #sec5 > div > a{
+    position: absolute;
+    background-color: transparent;
+    padding: 7px;
+    font-weight: 1000;
+    color: yellow;
+    outline: 1px solid yellow;
+    text-decoration: none;
+    left: 24%;
+    top: -200%;
+    width: 9em;
+    text-align: center;
+    transition: 1s;
+}
+#sec2 > div > a:hover, #sec5 > div > a:hover{
+    background-color: red;
+    color: #000;
+}
+#sec2 > div, #sec5 > div{
+    position: relative;
+    display: inline;
+}
+h3{
+    text-align: center;
+    margin: 1em;
+}
+#sec2 > button, #sec5 > button{
+    margin-left: 47%;    
+}    
+#sec4 > img{
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    height: 14em;
+    width: 29em;
+}
+#sec4 > p{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    line-height: 1.75em;
+    word-spacing: 0.25em;
+    font-size: xx-large
+}
+#sec4 > button{
+    position: absolute;
+    right: 24%;
+    top: 80%;
+}
+#sec3 > div{
+    background-image: url(don/B.png);
+    background-repeat: repeat-x;
+    background-size: 9px;
+    background-position: 60% 45%;
+    margin-left: 4.25em;
+    margin-bottom: 0.5em;
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.2);   
+}
+#sec3 > div > img{
+    width: 50px;
+    height: 70px;
+    margin: 12px 100px;   
+}
+#sec3 > div > p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+    margin-top: 3px;
+}
+#sec3 > div > a{
+    background-color: transparent;
+    padding: 4px;
+    font-weight: 1000;
+    color: red;
+    outline: 1px solid;
+    text-decoration: none;
+    width: 9em;
+    transition: 1s;   
+    margin: 100px;
+}
+#sec3 > div > a:hover{
+    color: #fff;
+    background-color: red;
+}
+#sec3 > div:hover{
+    outline: 1px inset red;
+}
+#sec3 > button{
+    display: block;
+    margin-left: 48em;
+}
+.sec2 > div{
+    margin: 0 9px;
+}
+#sec5 > div{
+    margin-left: 3rem;
+}
+#sec6{
+    position: relative;
+    background-color: lightgrey;
+    width: 100%;
+    height: 20em;
+}
+#sec6 > div{
+    padding: 2em 2em 1em 2em;
+    background-color: #fff;
+    width: 20em;
+    height: 10em;
+    text-align: justify;
+}
+#sec61{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+#sec62{
+    position: absolute;
+    top: 15%;
+    left: 35.5%;
+}
+#sec63{
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+#sec6 > div > img{
+    width: 3em;
+    height: 3em;
+    border-radius: 1em ;
+}
+#sec6 > h3{
+    display: block;
+    padding: 0.5em;
+}
+#sec6 > a > button{
+    position: absolute;
+    display: block;
+    width: 7em;
+    height: 3em;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    padding: 0.25em;
+    top: 85%;
+    left: 50%;
+}
+.sec611{
+    padding: 1em;
+    padding-bottom: 0;
+    display: flex;
+    width: 5em;
+    height: auto;
+}
+.sec611 > img{
+    width: 3em;
+    height: 3em;
+    border-radius: 1em;
+}
+#sec612, #sec622, #sec632{
+    width: 9em;
+    height: auto;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#sec7{
+    display: flex;
+    width: 100%;
+    height: 12em;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.sec71 > img{
+    
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.sec71{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3em;
+    font-size: larger;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 15em;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer > span{
+    float: left;
+    margin: 2% 0 0 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+footer > ul{
+    list-style-type: none;
+    margin: 2% 0 0 5%;
+}
+footer > ul > li{
+    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
+}
+footer > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+label{
+    align-self: center;
+}
+input{
+    width: 15em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 1rem 0 0 1rem;
+}
+label > span{
+    background-color: red;
+    padding: 5px;
+    width: 1rem;
+    height: 2em;
+    border-radius: 0 1rem 1rem 0;
+}
+input:focus, input:hover{
+    outline: 2px solid red;
+}
